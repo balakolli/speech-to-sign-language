@@ -84,16 +84,16 @@ python sam2.py
 ## 📁 Folder Structure
 
 your-project-name/
-├── ISL_Gifs/           # Pre-recorded sign language videos for common words
-├── letters/            # Videos for each alphabet letter (used when word not found)
-├── static/             # Static assets (CSS, images, and output video)
-│   ├── style.css
-│   └── merged_video.mp4
-├── templates/          # HTML templates for frontend
-│   ├── index.html
-│   └── translate.html
-├── sam1.py             # Script for text-to-sign translation
-├── sam2.py             # Main script for speech-to-sign translation
+├── ISL_Gifs/ # Pre-recorded sign language videos for common words
+├── letters/ # Videos for each alphabet letter (used when word not found)
+├── static/ # Static assets (CSS, images, and output video)
+│ ├── style.css
+│ └── merged_video.mp4
+├── templates/ # HTML templates for frontend
+│ ├── index.html
+│ └── translate.html
+├── sam1.py # Script for text-to-sign translation
+├── sam2.py # Main script for speech-to-sign translation
 └── README.md
 
 ---
@@ -115,8 +115,11 @@ your-project-name/
 ## 📌 Future Enhancements (Optional)
 
 .Add support for sentence-level ISL grammar
+
 .Integrate animated 3D avatars for dynamic gesture rendering
+
 .Expand the video dataset to cover more vocabulary
+
 .Add multilingual input (e.g., Hindi, Telugu, Tamil)
 
 
