@@ -58,6 +58,66 @@ While not using deep learning-based vision models, the logic simulates computer 
 ```bash
 git clone [Your-GitHub-Repo-URL]
 cd [Your-Project-Folder]
+```
+### 2. Create a virtual environment (optional but recommended):
+```bash
+python -m venv venv
+# On Unix or MacOS:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
+```
+
+### 3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+```bash
+pip freeze > requirements.txt
+```
+
+### 4. Run the application:
+```bash
+python sam2.py
+```
+---
+## 📁 Folder Structure
+
+your-project-name/
+├── ISL_Gifs/           # Pre-recorded sign language videos for common words
+├── letters/            # Videos for each alphabet letter (used when word not found)
+├── static/             # Static assets (CSS, images, and output video)
+│   ├── style.css
+│   └── merged_video.mp4
+├── templates/          # HTML templates for frontend
+│   ├── index.html
+│   └── translate.html
+├── sam1.py             # Script for text-to-sign translation
+├── sam2.py             # Main script for speech-to-sign translation
+└── README.md
+
+---
+## ▶️ How to Use
+1.Open the application in your browser.
+
+2.Click the “Translate” button.
+
+3.Speak into your microphone.
+
+4.The app will:
+    .Convert your speech into text
+    .Translate the text into sign language video
+
+5.View the generated ISL video on the next screen.
+
+---
+
+## 📌 Future Enhancements (Optional)
+
+.Add support for sentence-level ISL grammar
+.Integrate animated 3D avatars for dynamic gesture rendering
+.Expand the video dataset to cover more vocabulary
+.Add multilingual input (e.g., Hindi, Telugu, Tamil)
 
 
 
