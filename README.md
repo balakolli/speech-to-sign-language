@@ -59,13 +59,4 @@ While not using deep learning-based vision models, the logic simulates computer 
 ```bash
 git clone [Your-GitHub-Repo-URL]
 cd [Your-Project-Folder]
-2. Create a virtual environment (optional but recommended):
-bash
-Copy
-Edit
-python -m venv venv
-# On Unix or MacOS:
-source venv/bin/activate
-# On Windows:
-venv\Scripts\activate
 
