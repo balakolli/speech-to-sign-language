@@ -52,7 +52,6 @@ The project applies a simplified form of CV:
 While not using deep learning-based vision models, the logic simulates computer vision behavior through data mapping.
 
 ---
-'''markdown
 ## ⚙️ Setup and Installation
 
 ### 1. Clone the repository:
