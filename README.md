@@ -114,13 +114,13 @@ your-project-name/
 
 ## 📌 Future Enhancements (Optional)
 
-.Add support for sentence-level ISL grammar
+1.Add support for sentence-level ISL grammar
 
-.Integrate animated 3D avatars for dynamic gesture rendering
+2.Integrate animated 3D avatars for dynamic gesture rendering
 
-.Expand the video dataset to cover more vocabulary
+3.Expand the video dataset to cover more vocabulary
 
-.Add multilingual input (e.g., Hindi, Telugu, Tamil)
+4.Add multilingual input (e.g., Hindi, Telugu, Tamil)
 
 
 
