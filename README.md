@@ -82,7 +82,7 @@ python sam2.py
 ```
 ---
 ## 📁 Folder Structure
-
+```
 your-project-name/
 ├── ISL_Gifs/ # Pre-recorded sign language videos for common words
 ├── letters/ # Videos for each alphabet letter (used when word not found)
@@ -95,7 +95,7 @@ your-project-name/
 ├── sam1.py # Script for text-to-sign translation
 ├── sam2.py # Main script for speech-to-sign translation
 └── README.md
-
+```
 ---
 ## ▶️ How to Use
 1.Open the application in your browser.
